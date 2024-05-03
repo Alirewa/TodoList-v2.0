@@ -89,7 +89,6 @@ const showUnCompletedTodos = (todos) => {
     <div class="flex flex-row gap-x-4">
       <button data-todo-id=${todo.id} class="delete-btn text-red-600 hover:text-red-800"> Delete </button>
     </div>
-  </li>
-          `
+  </li>`
   ))
 }
